@@ -14,7 +14,7 @@ public class StaffMain {
 	
 	public static Double totalCalculation (Applicant applicant) {
 		double s1 = applicant.getSubject1Mark();
-		double s2 = applicant.getSubjec2Mark();
+		double s2 = applicant.getSubject2Mark();
 		double s3 = applicant.getSubject3Mark();
 		if(s1 < 50||s2 < 50||s3 < 50) 
 		{
